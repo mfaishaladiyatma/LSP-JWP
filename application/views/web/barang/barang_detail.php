@@ -72,7 +72,7 @@ if ($baris->id_barang == '') {
                                   <?php
                                   }?>
                                  </div>
-                                  <b><i class="fa fa-home"></i> </b> <?php echo $baris->judul; ?><br>
+                                  
                                </div>
                                <br>
 

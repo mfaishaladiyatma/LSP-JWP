@@ -112,7 +112,7 @@ $ceks = $this->session->userdata('username_member@wp');
               <ul>
 
                 <li>
-									<a href="adopt" class="bblack">Home</a>
+									<a href="<?php echo base_url(); ?>" class="bblack">Home</a>
 								</li>
 
                 <li>

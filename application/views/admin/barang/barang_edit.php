@@ -33,7 +33,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Kategori</label>
                   <div class="col-lg-10">
-                    <select class="form-control" name="id_kat" required>
+                    <select class="form-control" name="id_kat" >
                       <option value="">-- Pilih Kategori Mobil --</option>
                       <?php
                       foreach ($v_kat->result() as $baris) {?>
@@ -46,7 +46,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Status</label>
                   <div class="col-lg-10">
-                    <select class="form-control" name="status" required>
+                    <select class="form-control" name="status" >
                       <option value="">-- Pilih Status --</option>
                       <option value="DI JUAL" <?php if($v_barang->status=='DI JUAL'){echo "selected";} ?>>DI JUAL</option>
                       <option value="DI SEWA" <?php if($v_barang->status=='DI SEWA'){echo "selected";} ?>>DI SEWA</option>
@@ -56,7 +56,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Varian</label>
                   <div class="col-lg-10">
-                    <textarea name="lokasi" class="form-control" rows="2" cols="80" required placeholder="Varian"><?php echo $v_barang->lokasi; ?></textarea>
+                    <textarea name="varian" class="form-control" rows="2" cols="80"  placeholder="Varian"><?php echo $v_barang->varian; ?></textarea>
                   </div>
                 </div>
                 <!-- <div class="form-group">
@@ -68,7 +68,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Warna</label>
                   <div class="col-lg-10">
-                    <input type="text" name="warna" class="form-control" value="<?php echo $v_barang->warna; ?>" placeholder="warna" required maxlength="300">
+                    <input type="text" name="warna" class="form-control" value="<?php echo $v_barang->warna; ?>" placeholder="warna"  maxlength="300">
                   </div>
                 </div>
                 <!-- <div class="form-group">
@@ -115,7 +115,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Harga</label>
                   <div class="col-lg-10">
-                    <input type="number" name="harga" class="form-control" value="<?php echo $v_barang->harga; ?>" placeholder="Harga" required>
+                    <input type="number" name="harga" class="form-control" value="<?php echo $v_barang->harga; ?>" placeholder="Harga" >
                   </div>
                 </div>
                 <!-- <div class="form-group">

@@ -98,7 +98,7 @@
                            <p>
                              <b><?php echo ucwords(substr($baris->judul, 0, 21)); ?></b>
                              <br>
-                             <b>Varian:</b> <?php echo substr($baris->lokasi, 0, 50); ?>
+                             <b>Varian:</b> <?php echo substr($baris->varian, 0, 50); ?>
                            </p>
                         </div>
                         <div style="background-color:#222;padding:10px;padding-bottom:10px;color:white;">

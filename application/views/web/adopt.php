@@ -39,12 +39,12 @@
 <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
             <div class="col-md-12">
               <div class="col-md-12">
-                <div class="form-group">
+                <!-- <div class="form-group">
                   <label class="control-label col-lg-2">Jenis Hewan</label>
                   <div class="col-lg-10">
                     <input type="text" name="judul" class="form-control" value="" placeholder="Jenis Hewan" required maxlength="300">
                   </div>
-                </div>
+                </div> -->
 
                 <div class="form-group">
   <label class="control-label col-lg-2">Kategori</label>

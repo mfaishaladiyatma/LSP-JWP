@@ -293,17 +293,18 @@ class Admin extends CI_Controller {
 							$judul        	= htmlentities(strip_tags($_POST['judul']));
 							$id_kat       	= htmlentities(strip_tags($_POST['id_kat']));
 							$status       	= htmlentities(strip_tags($_POST['status']));
-							$lokasi       	= htmlentities(strip_tags($_POST['lokasi']));
-							$luas_tanah     = htmlentities(strip_tags($_POST['luas_tanah']));
+							$varian			 		= htmlentities(strip_tags($_POST['varian']));
+							// $lokasi       	= htmlentities(strip_tags($_POST['lokasi']));
+							// $luas_tanah     = htmlentities(strip_tags($_POST['luas_tanah']));
 							$warna  = htmlentities(strip_tags($_POST['warna']));
-							$kamar_tidur    = htmlentities(strip_tags($_POST['kamar_tidur']));
-							$lantai       	= htmlentities(strip_tags($_POST['lantai']));
-							$kamar_mandi    = htmlentities(strip_tags($_POST['kamar_mandi']));
-							$sertifikat     = htmlentities(strip_tags($_POST['sertifikat']));
-							$listrik 			  = htmlentities(strip_tags($_POST['listrik']));
+							// $kamar_tidur    = htmlentities(strip_tags($_POST['kamar_tidur']));
+							// $lantai       	= htmlentities(strip_tags($_POST['lantai']));
+							// $kamar_mandi    = htmlentities(strip_tags($_POST['kamar_mandi']));
+							// $sertifikat     = htmlentities(strip_tags($_POST['sertifikat']));
+							// $listrik 			  = htmlentities(strip_tags($_POST['listrik']));
 							$deskripsi 			= htmlentities(strip_tags($_POST['deskripsi']));
 							$harga         	= htmlentities(strip_tags($_POST['harga']));
-							$ket          	= htmlentities(strip_tags($_POST['ket']));
+							// $ket          	= htmlentities(strip_tags($_POST['ket']));
 
 							$file_size = 5500; //5 MB
 			        $this->upload->initialize(array(
@@ -394,21 +395,22 @@ class Admin extends CI_Controller {
 										'judul'    	  	=> $judul,
 										'id_kat'    		=> $id_kat,
 										'status'    		=> $status,
-										'lokasi'    		=> $lokasi,
-										'luas_tanah'    => $luas_tanah,
+										'varian'    		=> $varian,
+										// 'lokasi'    		=> $lokasi,
+										// 'luas_tanah'    => $luas_tanah,
 										'warna' => $warna,
-										'kamar_tidur'   => $kamar_tidur,
-										'lantai'    		=> $lantai,
-										'kamar_mandi'   => $kamar_mandi,
-										'sertifikat'    => $sertifikat,
-										'listrik'  		  => $listrik,
+										// 'kamar_tidur'   => $kamar_tidur,
+										// 'lantai'    		=> $lantai,
+										// 'kamar_mandi'   => $kamar_mandi,
+										// 'sertifikat'    => $sertifikat,
+										// 'listrik'  		  => $listrik,
 										'deskripsi'     => $deskripsi,
 										'harga'    			=> $harga,
 										'gambar'   			=> $foto,
 										'gambar2'  			=> $foto2,
 										'gambar3'  			=> $foto3,
 										'gambar4'  			=> $foto4,
-										'ket'   		 		=> $ket,
+										// 'ket'   		 		=> $ket,
 										'view'    			=> 0,
 										'tgl_barang'		=> $tgl
 									);
@@ -453,17 +455,18 @@ class Admin extends CI_Controller {
 						$judul        	= htmlentities(strip_tags($_POST['judul']));
 						$id_kat       	= htmlentities(strip_tags($_POST['id_kat']));
 						$status       	= htmlentities(strip_tags($_POST['status']));
-						$lokasi       	= htmlentities(strip_tags($_POST['lokasi']));
-						$luas_tanah     = htmlentities(strip_tags($_POST['luas_tanah']));
+						$varian					= htmlentities(strip_tags($_POST['varian']));
+						// $lokasi       	= htmlentities(strip_tags($_POST['lokasi']));
+						// $luas_tanah     = htmlentities(strip_tags($_POST['luas_tanah']));
 						$warna  = htmlentities(strip_tags($_POST['warna']));
-						$kamar_tidur    = htmlentities(strip_tags($_POST['kamar_tidur']));
-						$lantai       	= htmlentities(strip_tags($_POST['lantai']));
-						$kamar_mandi    = htmlentities(strip_tags($_POST['kamar_mandi']));
-						$sertifikat     = htmlentities(strip_tags($_POST['sertifikat']));
-						$listrik 			  = htmlentities(strip_tags($_POST['listrik']));
+						// $kamar_tidur    = htmlentities(strip_tags($_POST['kamar_tidur']));
+						// $lantai       	= htmlentities(strip_tags($_POST['lantai']));
+						// $kamar_mandi    = htmlentities(strip_tags($_POST['kamar_mandi']));
+						// $sertifikat     = htmlentities(strip_tags($_POST['sertifikat']));
+						// $listrik 			  = htmlentities(strip_tags($_POST['listrik']));
 						$deskripsi 			= htmlentities(strip_tags($_POST['deskripsi']));
 						$harga         	= htmlentities(strip_tags($_POST['harga']));
-						$ket          	= htmlentities(strip_tags($_POST['ket']));
+						// $ket          	= htmlentities(strip_tags($_POST['ket']));
 
 							$file_size = 5500; //5 MB
 			        $this->upload->initialize(array(
@@ -566,6 +569,7 @@ class Admin extends CI_Controller {
 										'judul'    	  	=> $judul,
 										'id_kat'    		=> $id_kat,
 										'status'    		=> $status,
+										'varian'    		=> $varian,
 										// 'lokasi'    		=> $lokasi,
 										// 'luas_tanah'    => $luas_tanah,
 										'warna' => $warna,

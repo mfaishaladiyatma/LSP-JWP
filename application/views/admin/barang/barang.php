@@ -46,7 +46,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Status</label>
                   <div class="col-lg-10">
-                    <select class="form-control" name="status" required>
+                    <select class="form-control" name="status" >
                       <option value="">-- Pilih Status --</option>
                       <option value="DI JUAL">DI JUAL</option>
                     </select>
@@ -55,7 +55,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Varian</label>
                   <div class="col-lg-10">
-                    <textarea name="lokasi" class="form-control" rows="2" cols="80" required placeholder="cth:Anggora"></textarea>
+                    <textarea name="varian" class="form-control" rows="2" cols="80"  placeholder="cth:Anggora"></textarea>
                   </div>
                 </div>
                 <!-- <div class="form-group">
@@ -67,7 +67,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Warna</label>
                   <div class="col-lg-10">
-                    <input type="text" name="warna" class="form-control" value="" placeholder="cth: Hitam" required maxlength="300">
+                    <input type="text" name="warna" class="form-control" value="" placeholder="cth: Hitam"  maxlength="300">
                   </div>
                 </div>
                 <!-- <div class="form-group">
@@ -114,7 +114,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Harga</label>
                   <div class="col-lg-10">
-                    <input type="number" name="harga" class="form-control" value="" placeholder="Harga" required>
+                    <input type="number" name="harga" class="form-control" value="" placeholder="Harga" >
                   </div>
                 </div>
                 <!-- <div class="form-group">
@@ -130,25 +130,25 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Gambar</label>
                   <div class="col-lg-10">
-                    <input type="file" name="foto" class="form-control" value="" required>
+                    <input type="file" name="foto" class="form-control" value="" >
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-lg-2">Gambar 2</label>
                   <div class="col-lg-10">
-                    <input type="file" name="foto2" class="form-control" value="" required>
+                    <input type="file" name="foto2" class="form-control" value="" >
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-lg-2">Gambar 3</label>
                   <div class="col-lg-10">
-                    <input type="file" name="foto3" class="form-control" value="" required>
+                    <input type="file" name="foto3" class="form-control" value="" >
                   </div>
                 </div>
                 <div class="form-group">
                   <label class="control-label col-lg-2">Gambar 4</label>
                   <div class="col-lg-10">
-                    <input type="file" name="foto4" class="form-control" value="" required>
+                    <input type="file" name="foto4" class="form-control" value="" >
                   </div>
                 </div>
               </div>
