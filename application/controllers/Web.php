@@ -230,7 +230,8 @@ class Web extends CI_Controller {
 							$judul        	= htmlentities(strip_tags($_POST['judul']));
 							$id_kat       	= htmlentities(strip_tags($_POST['id_kat']));
 							$status       	= htmlentities(strip_tags($_POST['status']));
-							$lokasi       	= htmlentities(strip_tags($_POST['lokasi']));
+							$varian			 	= htmlentities(strip_tags($_POST['varian']));
+							// $lokasi       	= htmlentities(strip_tags($_POST['lokasi']));
 							// $vaksin     = htmlentities(strip_tags($_POST['vaksin']));
 							$warna  = htmlentities(strip_tags($_POST['warna']));
 							// $kamar_tidur    = htmlentities(strip_tags($_POST['kamar_tidur']));
@@ -331,7 +332,8 @@ class Web extends CI_Controller {
 										'judul'    	  	=> $judul,
 										'id_kat'    		=> $id_kat,
 										'status'    		=> $status,
-										'lokasi'    		=> $lokasi,
+										'varian'    		=> $varian,
+										// 'lokasi'    		=> $lokasi,
 										// 'vaksin'    => $vaksin,
 										'warna' => $warna,
 										// 'kamar_tidur'   => $kamar_tidur,

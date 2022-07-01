@@ -104,8 +104,8 @@
 				</span>
 			  </div>
 			</form> -->
-              <h4>Sosial Media Kami</h4>
-              <p>Ikuti dan Tanyakan seputar <?php echo $data_web->nama_web; ?> di sosial media kami.</p>
+              <!-- <h4>Sosial Media Kami</h4>
+              <p>Ikuti dan Tanyakan seputar <?php echo $data_web->nama_web; ?> di sosial media kami.</p> -->
 
               <!-- <div class="social">
                 <?php if ($data_web->fb != ''): ?>

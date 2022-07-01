@@ -73,7 +73,7 @@
                 <div class="form-group">
                   <label class="control-label col-lg-2">Varian</label>
                   <div class="col-lg-10">
-                    <textarea name="lokasi" class="form-control" rows="2" cols="80" required placeholder="cth:Anggora"></textarea>
+                    <textarea name="varian" class="form-control" rows="2" cols="80" required placeholder="cth:Anggora"></textarea>
                   </div>
                 </div>
                 
