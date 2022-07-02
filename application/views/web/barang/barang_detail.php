@@ -9,8 +9,8 @@ if ($baris->id_barang == '') {
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <h2 class="pull-left"><i class="fa fa-dropbox title-icon"></i> <?php echo ucwords($baris->judul); ?></h2>
-        <div class="pull-right heading-meta" style="font-size:15px;"><a href="<?php echo base_url(); ?>" style="color:#f1f1f1;">Home</a> / <span class="lightblue"><?php echo $baris->judul; ?></span></a></div>
+        <h2 class="pull-left"><i class="fa fa-dropbox title-icon"></i> </h2>
+        <div class="pull-right heading-meta" style="font-size:15px;"><a href="<?php echo base_url(); ?>" style="color:#f1f1f1;">Home</a> / <span class="lightblue"></div>
       </div>
     </div>
   </div>
@@ -33,7 +33,7 @@ if ($baris->id_barang == '') {
                             <!-- Each posts should be enclosed inside "entry" class" -->
                             <!-- Post one -->
                             <div class="entry">
-                               <h2><i class="fa fa-arrow-right title-icon"></i> <a href="#"><?php echo ucwords($baris->judul); ?></a></h2>
+                               <h2><i class="fa fa-arrow-right title-icon"></i> <a href="#"><?php echo ucwords($baris->varian); ?></a></h2>
 
                                <!-- Meta details -->
                                <div class="meta">
@@ -89,43 +89,14 @@ if ($baris->id_barang == '') {
                                    <td>Varian</td>
                                    <td><?php echo $baris->varian; ?></td>
                                  </tr>
-                                 <!-- <tr>
-                                   <td>Jarak Tempuh</td>
-                                   <td><?php echo $baris->luas_tanah; ?></td>
-                                 </tr> -->
                                  <tr>
                                    <td>Warna</td>
                                    <td><?php echo $baris->warna; ?></td>
                                  </tr>
-                                 <!-- <tr>
-                                   <td>Kapasitas Mesin</td>
-                                   <td><?php echo $baris->kamar_tidur; ?></td>
-                                 </tr> -->
-                                 <!-- <tr>
-                                   <td>Tahun</td>
-                                   <td><?php echo $baris->lantai; ?></td>
-                                 </tr> -->
-                                 <!-- <tr>
-                                   <td>Sistem Penggerak</td>
-                                   <td><?php echo $baris->kamar_mandi; ?></td>
-                                 </tr> -->
-                                 
-                                 <!-- <tr>
-                                   <td>Transmisi</td>
-                                   <td><?php echo $baris->listrik; ?></td>
-                                 </tr> -->
                                  <tr>
                                    <td>Harga</td>
                                    <td><b>Rp. <?php echo number_format($baris->harga,0,",","."); ?></b></td>
                                  </tr>
-                                 <!-- <tr>
-                                   <td>Keterangan</td>
-                                   <td><b><?php echo strtoupper($baris->ket); ?></b></td>
-                                 </tr> -->
-                                 <!-- <tr>
-                                   <td>Tanggal</td>
-                                   <td><?php echo $this->Mcrud->tgl_id(date('Y-m-d', strtotime($baris->tgl_barang))); ?></td>
-                                 </tr> -->
                                  <tr>
                                    <td>Deskripsi</td>
                                    <td><?php echo $baris->deskripsi; ?></td>
@@ -143,15 +114,6 @@ if ($baris->id_barang == '') {
                             <div id="disqus_thread"></div>
                             <script>
 
-                            /**
-                            *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-                            *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-                            /*
-                            var disqus_config = function () {
-                            this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-                            this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-                            };
-                            */
                             (function() { // DON'T EDIT BELOW THIS LINE
                             var d = document, s = d.createElement('script');
                             s.src = 'https://hostqu.disqus.com/embed.js';

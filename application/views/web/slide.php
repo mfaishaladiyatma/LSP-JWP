@@ -1,5 +1,10 @@
 <!-- Slider starts -->
-  <div class="parallax-slider">
+            <div class="hero-title test-border">
+              <p class="paragraph-title"> Selamat datang di Petshopku </p>
+            </div>  
+
+            <div class="container-parallax-slider">
+      <div class="parallax-slider">
             <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
        
             <ol class="carousel-indicators">
@@ -29,5 +34,6 @@
               <span class="glyphicon glyphicon-chevron-right"></span>
             </a>
             </div>
+  </div>
   </div>
 <!-- Slider ends -->

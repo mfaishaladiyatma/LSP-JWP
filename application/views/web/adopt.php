@@ -24,8 +24,8 @@
 
                         <div class="row">
                                     <?php
-          echo $this->session->flashdata('msg');
-          ?>
+echo $this->session->flashdata('msg');
+?>
                            <div class="col-md-3 col-sm-3"></div>
                            <div class="col-md-6 col-sm-6">
                              
@@ -39,13 +39,7 @@
 <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
             <div class="col-md-12">
               <div class="col-md-12">
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Jenis Hewan</label>
-                  <div class="col-lg-10">
-                    <input type="text" name="judul" class="form-control" value="" placeholder="Jenis Hewan" required maxlength="300">
-                  </div>
-                </div> -->
-
+                
                 <div class="form-group">
   <label class="control-label col-lg-2">Kategori</label>
                   <div class="col-lg-10">
@@ -53,23 +47,14 @@
                     
                       <option value="">-- Pilih Kategori Hewan --</option>
                       <?php
-                      foreach ($v_kat->result() as $baris) {?>
+foreach ($v_kat->result() as $baris) { ?>
                         <option value="<?php echo $baris->id_kat; ?>"><?php echo $baris->nama_kat; ?></option>
                       <?php
-                      } ?>
+}?>
                     </select>
                   </div>
                   </div>
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Umur</label>
-                  <div class="col-lg-10">
-                    <select class="form-control" name="status" required>
-                      <option value="">-- Pilih Umur --</option>
-                      <option value="< 1 Tahun">Dibawah 1 Tahun</option>
-                      <option value="> 1 Tahun">Lebih Dari 1 Tahun</option>
-                    </select>
-                  </div>
-                </div> -->
+                
                 <div class="form-group">
                   <label class="control-label col-lg-2">Varian</label>
                   <div class="col-lg-10">
@@ -92,41 +77,8 @@
                     </select>
                   </div>
                 </div>
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Kapasitas Mesin</label>
-                  <div class="col-lg-10">
-                    <input type="text" name="kamar_tidur" class="form-control" value="" placeholder="cth: >1.000 -1.500 cc" required maxlength="300">
-                  </div>
-                </div> -->
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Tahun</label>
-                  <div class="col-lg-10">
-                    <input type="text" name="lantai" class="form-control" value="" placeholder="cth: 2010" required maxlength="300">
-                  </div>
-                </div> -->
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Sistem Penggerak</label>
-                  <div class="col-lg-10">
-                    <input type="text" name="kamar_mandi" class="form-control" value="" placeholder="Sistem Penggerak" required maxlength="300">
-                  </div>
-                </div> -->
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Tipe Bahan Bakar</label>
-                  <div class="col-lg-10">
-                    <select class="form-control" name="sertifikat" required>
-                      <option value="">-- Pilih Tipe Bahan Bakar --</option>
-                      <option value="premium">Premium</option>
-                      <option value="solar">Solar</option>
-                    </select>
-                  </div>
-                </div> -->
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Transmisi</label>
-                  <div class="col-lg-10">
-                    <input type="text" name="listrik" class="form-control" value="" placeholder="Transmisi" required maxlength="300">
-                  </div>
-                 
-                </div> -->
+                
+                
                 <div class="form-group">
                   <label class="control-label col-lg-2">Deskripsi</label>
                   <div class="col-lg-10">
@@ -139,16 +91,7 @@
                     <input type="number" name="harga" class="form-control" value="" placeholder="Harga" required>
                   </div>
                 </div>
-                <!-- <div class="form-group">
-                  <label class="control-label col-lg-2">Keterangan</label>
-                  <div class="col-lg-10">
-                    <select class="form-control" name="ket" required>
-                      <option value="">-- Pilih Keterangan --</option>
-                      <option value="nego">Nego</option>
-                      <option value="net">Net</option>
-                    </select>
-                  </div>
-                </div> -->
+                
                 <div class="form-group">
                   <label class="control-label col-lg-2">Gambar</label>
                   <div class="col-lg-10">

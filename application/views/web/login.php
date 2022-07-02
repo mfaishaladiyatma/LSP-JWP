@@ -28,7 +28,6 @@
                               <div class="cwell">
                                  <!-- Contact form -->
                                     <h3 class="title">Form Login</h3>
-                                    <!-- <br><center><p>Copyright &copy; IRZA ORVALA ALFANDI</p></center> -->
                                     
                                     <div class="form">
                                       <?php

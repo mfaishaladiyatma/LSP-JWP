@@ -81,17 +81,13 @@ $ceks = $this->session->userdata('username_member@wp');
 
           <div class="logo ">
 
+						<a href="<?php echo base_url(); ?>">
             <div class="logo-image">
               <!-- Image link -->
-              <a href="<?php echo base_url(); ?>">
-								<img src="img/logo1.jpg" alt="Logo <?php echo $data_web->nama_web; ?>" style="margin-top:-10px;max-height:150px;">
-							</a>
-            </div>
+								<p>PetshopKu</p>
+							</div>
+						</a>
 
-            <!-- <div class="logo-text">
-              <h1><a href="<?php echo base_url(); ?>"><?php echo $data_web->nama_web; ?></a></h1>
-              <div class="logo-meta">web profile</div>
-            </div> -->
 
             <div class="clearfix"></div>
 
@@ -128,9 +124,7 @@ $ceks = $this->session->userdata('username_member@wp');
 									<a href="help" class="bblack">Help</a>
 								</li>
 
-                <!-- <li>
-									<a href="kontak" class="bblue"> <i class="fa fa-envelope-o"></i> Kontak</a>
-								</li> -->
+                
 
 								<li>
 									<?php

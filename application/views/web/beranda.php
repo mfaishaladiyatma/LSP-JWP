@@ -14,8 +14,7 @@
 
           <div class="hero-right">
             
-            <div class="hero-title">
-              <i class="fa fa-desktop"></i>Selamat datang di Petshopku </b></div>
+            
           </div>
 
           <div class="clearfix"></div>
